@@ -1,0 +1,30 @@
+{
+	"name": "coldnet-dev",
+	"tree": {
+		"$className": "DataModel",
+		
+		"ReplicatedStorage": {
+			"Packages": {
+				"$className": "Folder",
+				"coldnet": {
+					"$path": "src"
+				}
+			},
+			"shared": {
+				"$path": "dev/shared"
+			}
+		},
+		
+		"ServerScriptService": {
+			"server": {
+				"$path": "dev/server"
+			}
+		},
+		
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"$path": "dev/client"
+			}
+		}
+	}
+}
