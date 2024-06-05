@@ -1,2 +1,14 @@
-Packages
+sourcemap.json
+buildsourcemap.json
+build
+
 node_modules
+Packages
+
+build.rbxlx
+build.rbxlx.lock
+.gitignore
+
+fullversion.txt
+
+.ds_store
