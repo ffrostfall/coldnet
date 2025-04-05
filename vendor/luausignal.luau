@@ -1,8 +1,8 @@
 --!optimize 2
 --!native
-local task = require("@lute/task")
+local task = require("@vendor/task")
 
-local tspawn = task.defer
+local tspawn = task.spawn
 local cyield = coroutine.yield
 
 local freeThread: thread? = nil
