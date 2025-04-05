@@ -1,36 +1,36 @@
 {
 	"[luau]": {
-	  "editor.defaultFormatter": "JohnnyMorganz.stylua",
-	  "editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "JohnnyMorganz.stylua"
 	},
-  
+
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	
+	"luau-lsp.sourcemap.enabled": false,
+	"luau-lsp.platform.type": "standard",
+	"luau-lsp.types.definitionFiles": ["lute_typedefs/lute_classes.d.luau"],
+
+	"luau-lsp.ignoreGlobs": [
+		"**/_Index/**",
+		"build/**",
+		"vendor/**"
+	],
+	
+	"luau-lsp.fflags.enableNewSolver": true,
+	"luau-lsp.completion.enableFragmentAutocomplete": false,
+	
+	"prettier.useTabs": true,
+	"stylua.targetReleaseVersion": "latest",
+
 	"workbench.editor.customLabels.enabled": true,
 	"workbench.editor.customLabels.patterns": {
-	  "**/init.luau": "${dirname} (${filename}.${extname})",
-	  "**/init.lua": "${dirname} (${filename}.${extname})"
-	},
-  
-	"luau-lsp.sourcemap.rojoProjectFile": "editor.project.json",
-	"luau-lsp.sourcemap.includeNonScripts": true,
-	"luau-lsp.sourcemap.enabled": false,
-	"luau-lsp.sourcemap.autogenerate": false,
-  
-	"luau-lsp.completion.imports.separateGroupsWithLine": true,
-	"luau-lsp.completion.imports.suggestRequires": false,
-	"luau-lsp.completion.imports.suggestServices": false,
-	
-	"luau-lsp.require.mode": "relativeToFile",
-	"luau-lsp.require.directoryAliases": {
-	  "@lune/": "~/.lune/.typedefs/0.8.4/",
-	  "@src": "src/",
-	  "@template": "src/template/",
-	},
-  
-	"luau-lsp.ignoreGlobs": ["**/_Index/**", "build/**", "build", "legacy/**"],
-  
-	"stylua.targetReleaseVersion": "latest",
-	"files.exclude": {
-	  "asphaltkey": true
+		"**/init.lua": "${dirname} (${filename}.${extname})",
+		"**/init.luau": "${dirname} (${filename}.${extname})"
 	}
-  }
-  
+}

@@ -1,7 +1,9 @@
 {
 	"languageMode": "strict",
 	"aliases": {
+		"lute": "lute_typedefs/api/",
 		"src": "src/",
-		"provided": "src/template/"
+		"vendor": "vendor/",
+		"tests": "tests/"
 	}
 }

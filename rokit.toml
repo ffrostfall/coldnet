@@ -1,0 +1,4 @@
+[tools]
+darklua = "seaofvoices/darklua@0.16.0"
+rojo = "rojo-rbx/rojo@7.4.4"
+lute = "aatxe/lute@0.1.0-nightly.20250404"
